@@ -431,6 +431,10 @@ h3 {
   color: #666;
 }
 
+.card a{
+  margin-right: 0px;
+}
+
 .card ul {
   margin-bottom: 0;
 }
