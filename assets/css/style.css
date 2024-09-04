@@ -11,7 +11,12 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 10px solid rgba(188, 208, 254, 0); 
+  border-radius: 50% !important;
+}
+
+.profile-pic:hover {
+  border: 10px solid rgba(28, 63, 144, 0.5);
   border-radius: 50% !important;
 }
 
@@ -221,10 +226,19 @@ dt {
 
 ul.side-nav {
   width: 190px;
+  background-color: #071D4F !important;
 }
 
 ul.side-nav li {
   padding: 0;
+}
+
+ul.side-nav li a i {
+  color: #5271B9 !important;
+}
+
+ul.side-nav li a span {
+  color: white !important;
 }
 
 /* ul.side-nav.fixed a {
@@ -257,10 +271,10 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  /*background-color: #fafafa;*/
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
-  min-height: 90px;
+  min-height: 100px;
   padding: 30px 30px 40px;
 }
 
@@ -269,14 +283,18 @@ ul.side-nav.fixed li.logo a {
   line-height: 100%;
 }
 
-ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
-  border-left: 3px solid;
+.logo:hover {
+  background-color: #071D4F !important;
 }
 
-ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
+  background-color: #1C3F90;
+  border-left: 10px solid;
 }
+
+/*ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
+  color: #333 !important;
+}*/
 
 li.logo span {
   display: block;
@@ -288,6 +306,10 @@ li.logo span {
   line-height: inherit;
   margin: inherit;
   font-weight: inherit;
+}
+
+.brand-logo img {
+    object-fit: cover;
 }
 
 .container {
@@ -320,7 +342,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #5271B9 repeat;
   position: relative;
 }
 
@@ -553,7 +575,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #BCD0FE !important;
 }
 
 /* .teal-text {
@@ -563,7 +585,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #071D4F !important;
 }
 
 /* .teal {
@@ -606,7 +628,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #1C3F90;
     height: 56px;
     line-height: 56px;
   }
