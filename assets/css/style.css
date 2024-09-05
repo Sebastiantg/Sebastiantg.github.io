@@ -381,9 +381,9 @@ h3 {
   text-shadow: 1px 1px 5px rgba(0, 0, 0);
 }
 
-.typing {
+.bold {
   font-weight: 400; 
-  color:#BCD0FE;
+  color:#88a4e3;
 }
 
 #intro.section .container .intro-desc {
