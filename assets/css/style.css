@@ -313,7 +313,7 @@ li.logo span {
 }
 
 .container {
-  width: 95%;
+  width: 100%;
 }
 
 h3 {
@@ -342,17 +342,61 @@ h3 {
 } */
 
 #intro.section {
-  background: #5271B9 repeat;
+  /*background: #5271B9 repeat;*/
+  background: url(../img/fondo.jpg) no-repeat center;
   position: relative;
 }
 
 #intro.section .container {
   color: white;
+  display: flex !important;
   font-weight: 200;
-  left: 0;
   position: absolute;
-  top: 0;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+  padding: 10%;
 }
+
+#intro.section .container .caption-1 {
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0);
+}
+
+#intro.section .container .main-name {
+  display: flex;
+  color: white;
+  font-size: 5rem;
+  line-height: 120%;
+  margin-left: -0.5rem;
+  margin-bottom: 3%;
+  
+}
+
+#intro.section .container .caption-2 {
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0);
+}
+
+.typing {
+  font-weight: 400; 
+  color:#BCD0FE;
+}
+
+#intro.section .container .intro-desc {
+  color: white;
+  font-size: 1.7rem;
+  /*max-width: 80%;*/
+  margin-top: 2rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0);
+}
+
+/*ul.side-nav {
+  box-shadow: none;
+}*/
 
 /* #intro.section .container *:not(span) {
   font-weight: 300;
