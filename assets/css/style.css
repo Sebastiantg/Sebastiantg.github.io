@@ -213,8 +213,12 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  /*background: url(../../assets/img/bg.png) repeat;*/
   padding-left: 190px;
+}
+
+section {
+  background: url(../img/bg3.png) repeat;
 }
 
 dl {
