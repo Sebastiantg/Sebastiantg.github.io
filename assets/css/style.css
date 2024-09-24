@@ -153,7 +153,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #0077b5;
 }
 
 /* main blockqoute */
@@ -491,7 +491,7 @@ h3 {
 .card li a {
   margin-right: 0;
   color: #333;
-  border-bottom: 2px solid #ffab40;
+  border-bottom: 2px solid #0077b5;
 }
 
 .card li a:hover {
@@ -540,6 +540,17 @@ h3 {
 
 .card a{
   margin-right: 0px;
+  color: #0077b5;
+}
+
+#education .card a {
+  text-transform: none !important;
+}
+
+.card a:hover{
+  border-bottom: 2px solid #0077b5 !important;
+  color: #0077b5;
+  font-weight: 500;
 }
 
 .card ul {
@@ -623,13 +634,53 @@ a.hoverline:hover {
   text-transform: uppercase;
 }
 
+#skills .row.text-center {
+  margin-bottom: 0px;
+}
+
+#skills .row.text-center .col {
+  height: 120px;
+  margin: 15px auto;
+}
+
 #skills .col img.responsive-img {
   margin: 0 auto;
-  max-height: 100px;
+  max-height: 80px;
   padding-bottom: 10px;
   text-align: center;
   vertical-align: middle;
   display: table-cell;
+}
+
+#projects .publications .card-title-text {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.pub-icon {
+  margin: 0 10px;
+}
+
+.pub-title {
+  color: #0077b5;
+}
+
+.pub-list a{
+  border-bottom: 0px !important;
+  text-transform: none !important;
+}
+
+.pub-list a:hover{
+  border-bottom: 2px solid #0077b5 !important;
+}
+
+.publications {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.publication-title {
+  font-size: larger;
 }
 
 .card.large .card-content p {
