@@ -205,6 +205,13 @@ nav i {
   top: 5px;
 }
 
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+
 /* main */
 
 /* main {
